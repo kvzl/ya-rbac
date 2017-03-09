@@ -6,7 +6,12 @@ const router = express.Router()
 
 const permission = require('../lib')
 
-
+router.use('/api/login', (req, res, next) => {
+  res.status(200).json({ message: '/api/login' })
+})
+router.use('/api/all-pass', (req, res, next) => {
+  res.status(200).json({ message: '/api/all-pass' })
+})
 router.use('/api/users', (req, res, next) => {
   res.status(200).json({ message: '/api/users' })
 })
