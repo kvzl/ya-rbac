@@ -33,7 +33,7 @@
     "url": "git+https://github.com/ucfan/ya-rbac.git"
   },
   "author": "Kevin Liao <ucfan1784@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ucfan/ya-rbac/issues"
   },
